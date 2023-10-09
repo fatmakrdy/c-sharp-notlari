@@ -79,7 +79,7 @@ Bu kodda, "bugun" adlı değişken "Çarşamba" enum öğesini temsil eder. Bu, 
  <br>
 ``` (int)Gunler.Çarşamba -- 2 çıktıısnı verir```<br>
 Enum veri tipi, programlarınızda sabit değerler kullanmanız gerektiğinde oldukça faydalıdır ve kodunuzun daha okunaklı ve bakımı daha kolay hale gelmesine yardımcı olur.
-** var anahtar kelimesi: **
+- ** var anahtar kelimesi: **<br>
 `var` anahtar kelimesi, atanan değere göre veri tipini belirler. Örneğin:
 ```
 var num = 5; // num otomatik olarak int olarak tanımlanır

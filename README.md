@@ -1,7 +1,7 @@
 # c-sharp-notlari
 
-C#;etkileşimli web siteleri, mobil uygulamalar, video oyunları, artırılmış gerçeklik (AR), sanal gerçeklik (VR), masaüstü uygulamaları ve back-end hizmetleri oluşturmak için kullanılabilir.
-C#, static typing sahip bir programlama dilidir. Bu, bir program yazılırken veri tipinin önceden belirtilmesi gerektiği anlamına gelir. Bu kavram, "tür güvenliği" (type safety) olarak da adlandırılır ve programın daha güvenli ve hatasız olmasına yardımcı olur.
+- C#;etkileşimli web siteleri, mobil uygulamalar, video oyunları, artırılmış gerçeklik (AR), sanal gerçeklik (VR), masaüstü uygulamaları ve back-end hizmetleri oluşturmak için kullanılabilir.
+- C#, static typing sahip bir programlama dilidir. Bu, bir program yazılırken veri tipinin önceden belirtilmesi gerektiği anlamına gelir. Bu kavram, "tür güvenliği" (type safety) olarak da adlandırılır ve programın daha güvenli ve hatasız olmasına yardımcı olur.
 
 <h1> Value Types: </h1>
 Veri tiplerinin değer sınırları vardır.
@@ -12,7 +12,7 @@ short veri tipi 16 bit
 byte 8 bit
 
 - long veri tipi integer veri tipinden daha büyük değeri kapsar. *küçük bir veri için long kullanılırsa bellekte gereksiz bir yer kullanmış oluruz.
-'''
+```
 public static void Main(string[] args)
     {
       int num1=10;
@@ -20,7 +20,7 @@ public static void Main(string[] args)
     Console.WriteLine("Number one: {0}",num1); //index virgülden sonraki ilk sayı
         Console.ReadLine();
     }
-  '''
+  ```
     -bool mantıksal bir veri tipidir. Şart ifadelerinde kullanılır.
      char karakter atamalarında kullanılır
      char character ='A'; 

@@ -13,7 +13,6 @@ C# içerisinde kullanılan bazı temel değer tipleri şunlardır:
 - **long:** 64 bitlik tamsayıları temsil eder.
 - **short:** 16 bitlik tamsayıları temsil eder.
 - **byte:** 8 bitlik verileri temsil eder.
-- **double:** 64 bitlik verileri temsil eder.
   
   ```
    public static void Main(string[] args)
@@ -28,8 +27,8 @@ Not: Daha küçük bir veri için long kullanmak, gereksiz bellek kullanımına 
 
 - **bool:** Mantıksal bir veri tipidir ve genellikle şart ifadelerinde kullanılır.
 - **char:** Karakterleri temsil eder ve karakter atamaları için kullanılır. Karakterin ASCII değerini almak için `(int)` kullanılabilir.
-- **double:** Ondalık değerleri temsil eder. Tam sayı bir değer de atanabilir, ancak tam tersi mümkün değildir.
-- **decimal:** Hassas ondalık değerleri temsil eder ve virgülden sonra daha fazla hassasiyet sunar.C# dili, bu tür bir dönüşümü (double'dan decimal'a dönüştürme) açıkça belirtmenizi ister, çünkü double ve decimal farklı sayı veri tipleridir ve otomatik olarak dönüşüm yapmazlar.
+- **double:** 64 bitlik ondalık değerleri temsil eder. Tam sayı bir değer de atanabilir, ancak tam tersi mümkün değildir.
+- **decimal:** 128 bitlik hassas ondalık değerleri temsil eder ve virgülden sonra daha fazla hassasiyet sunar.C# dili, bu tür bir dönüşümü (double'dan decimal'a dönüştürme) açıkça belirtmenizi ister, çünkü double ve decimal farklı sayı veri tipleridir ve otomatik olarak dönüşüm yapmazlar.
 
  ## Açıkça Tür Dönüşümü:
 double değerini decimal türüne dönüştürmek için açıkça tür dönüşümü operatörünü kullanabilirsiniz. İşte örnek bir kod:

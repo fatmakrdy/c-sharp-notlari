@@ -1,9 +1,8 @@
-# c-sharp-notlari
-
+<h1> C# Notlari </h1>
 - C#;etkileşimli web siteleri, mobil uygulamalar, video oyunları, artırılmış gerçeklik (AR), sanal gerçeklik (VR), masaüstü uygulamaları ve back-end hizmetleri oluşturmak için kullanılabilir.
 - C#, static typing sahip bir programlama dilidir. Bu, bir program yazılırken veri tipinin önceden belirtilmesi gerektiği anlamına gelir. Bu kavram, "tür güvenliği" (type safety) olarak da adlandırılır ve programın daha güvenli ve hatasız olmasına yardımcı olur.
 
-<h1> Value Types: </h1>
+# Value Types: 
 Veri tiplerinin değer sınırları vardır.
 sayı veri tipleri:
 int veri tipi 32 bit

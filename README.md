@@ -15,15 +15,13 @@ C# içerisinde kullanılan bazı temel değer tipleri şunlardır:
 - **byte:** 8 bitlik verileri temsil eder.
 - **double:** 64 bitlik verileri temsil eder.
   
-  ```
-public static void Main(string[] args)
+  ```public static void Main(string[] args)
     {
       int num1=10;
       int num2=5;
     Console.WriteLine("Number one: {0}",num1); //index virgülden sonraki ilk sayı
         Console.ReadLine();
-    }
-  ```
+    } ```
 Not: Daha küçük bir veri için long kullanmak, gereksiz bellek kullanımına yol açabilir.
 
 ## bool Veri Tipi
@@ -53,8 +51,7 @@ decimal decimalValue = 3.14159m;```
 
 - **enum:** Belirli bir değer kümesini sembolik olarak temsil etmek için kullanılır. Özellikle sabit değerlerin adlandırılmasına ve gruplandırılmasına yardımcı olur. Örnek olarak haftanın günlerini sembolik olarak temsil eden bir enum tanımlayabiliriz.
 
-```
-enum Gunler
+```enum Gunler
 {
     Pazartesi,
     Salı,
@@ -63,8 +60,7 @@ enum Gunler
     Cuma,
     Cumartesi,
     Pazar
-}
-```
+}```
 Bu enum, günleri sembolik olarak temsil eder ve her biri bir sayısal değere karşılık gelir.
 Örneğin, "Pazartesi" enumunun değeri 0'dır, "Salı" 1'dir ve böyle devam eder. Ancak, bu değerlere doğrudan erişmek zorunda değilsiniz, çünkü enum öğeleri genellikle sembolik olarak kullanılırlar.
 > Gunler bugun = Gunler.Çarşamba;

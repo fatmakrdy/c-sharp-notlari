@@ -3,26 +3,25 @@
 C#;etkileşimli web siteleri, mobil uygulamalar, video oyunları, artırılmış gerçeklik (AR), sanal gerçeklik (VR), masaüstü uygulamaları ve back-end hizmetleri oluşturmak için kullanılabilir.
 C#, static typing sahip bir programlama dilidir. Bu, bir program yazılırken veri tipinin önceden belirtilmesi gerektiği anlamına gelir. Bu kavram, "tür güvenliği" (type safety) olarak da adlandırılır ve programın daha güvenli ve hatasız olmasına yardımcı olur.
 
+<h1> Value Types: </h1>
+Veri tiplerinin değer sınırları vardır.
+sayı veri tipleri:
+int veri tipi 32 bit
+long veri tipi 64 bit
+short veri tipi 16 bit
+byte 8 bit
 
-
-
-static void Main() {
-      value types
-      veri tiplerinin değer sınırları vardır.
-      sayı veri tipleri:
-      int veri tip 32 bit
-      long veri tipi 64 bit
-      short veri tipi 16 bit
-      byte 8 bit
-      long veri tipi integer veri tipinden daha büyük değeri kapsar.
-     *küçük bir veri için long kullanılırsa bellekte gereksiz bir yer kullanmış oluruz.
+- long veri tipi integer veri tipinden daha büyük değeri kapsar. *küçük bir veri için long kullanılırsa bellekte gereksiz bir yer kullanmış oluruz.
+'''
+public static void Main(string[] args)
+    {
       int num1=10;
       int num2=5;
-        Console.WriteLine("Number one: {0}",num1); //index virgülden sonraki ilk sayı
+    Console.WriteLine("Number one: {0}",num1); //index virgülden sonraki ilk sayı
         Console.ReadLine();
     }
-
-     bool mantıksal bir veri tipidir. Şart ifadelerinde kullanılır.
+  '''
+    -bool mantıksal bir veri tipidir. Şart ifadelerinde kullanılır.
      char karakter atamalarında kullanılır
      char character ='A'; 
      (int)char character ='A';//veri tipini değiştirip ASCII de sayısal karşılığını alırız.

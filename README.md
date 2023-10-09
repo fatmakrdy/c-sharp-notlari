@@ -15,8 +15,8 @@ C# içerisinde kullanılan bazı temel değer tipleri şunlardır:
 - **byte:** 8 bitlik verileri temsil eder.
 - **double:** 64 bitlik verileri temsil eder.
   
-  ```public static void Main(string[] args)
-    {
+  ``` public static void Main(string[] args)
+  {
       int num1=10;
       int num2=5;
     Console.WriteLine("Number one: {0}",num1); //index virgülden sonraki ilk sayı
@@ -39,11 +39,13 @@ Not: Daha küçük bir veri için long kullanmak, gereksiz bellek kullanımına 
 
  ## Açıkça Tür Dönüşümü:
 double değerini decimal türüne dönüştürmek için açıkça tür dönüşümü operatörünü kullanabilirsiniz. İşte örnek bir kod:
+
 ```double doubleValue = 3.14159;
 decimal decimalValue = (decimal)doubleValue;```
 
 - m Takısı Kullanımı:
 Alternatif olarak, double bir literali decimal türüne dönüştürmek isterseniz, m takısı kullanabilirsiniz. Örnek:
+ 
 ```double doubleValue = 3.14159;
 decimal decimalValue = 3.14159m;```
 

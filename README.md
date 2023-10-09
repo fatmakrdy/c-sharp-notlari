@@ -73,8 +73,10 @@ enum Gunler
 ```
 Bu enum, günleri sembolik olarak temsil eder ve her biri bir sayısal değere karşılık gelir.
 Örneğin, "Pazartesi" enumunun değeri 0'dır, "Salı" 1'dir ve böyle devam eder. Ancak, bu değerlere doğrudan erişmek zorunda değilsiniz, çünkü enum öğeleri genellikle sembolik olarak kullanılırlar.
+<br>
 > Gunler bugun = Gunler.Çarşamba;
 Bu kodda, "bugun" adlı değişken "Çarşamba" enum öğesini temsil eder. Bu, kodun daha anlaşılır ve düzenli olmasına yardımcı olabilir.
+ <br>
 > (int)Gunler.Çarşamba -- 2 çıktıısnı verir
 Enum veri tipi, programlarınızda sabit değerler kullanmanız gerektiğinde oldukça faydalıdır ve kodunuzun daha okunaklı ve bakımı daha kolay hale gelmesine yardımcı olur.
 ** var anahtar kelimesi: **

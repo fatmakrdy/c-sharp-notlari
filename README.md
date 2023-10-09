@@ -26,16 +26,8 @@ C# içerisinde kullanılan bazı temel değer tipleri şunlardır:
   ```
 Not: Daha küçük bir veri için long kullanmak, gereksiz bellek kullanımına yol açabilir.
 
-## bool Veri Tipi
-
 - **bool:** Mantıksal bir veri tipidir ve genellikle şart ifadelerinde kullanılır.
-
-## char Veri Tipi
-
 - **char:** Karakterleri temsil eder ve karakter atamaları için kullanılır. Karakterin ASCII değerini almak için `(int)` kullanılabilir.
-
-## double ve decimal Veri Tipleri
-
 - **double:** Ondalık değerleri temsil eder. Tam sayı bir değer de atanabilir, ancak tam tersi mümkün değildir.
 - **decimal:** Hassas ondalık değerleri temsil eder ve virgülden sonra daha fazla hassasiyet sunar.C# dili, bu tür bir dönüşümü (double'dan decimal'a dönüştürme) açıkça belirtmenizi ister, çünkü double ve decimal farklı sayı veri tipleridir ve otomatik olarak dönüşüm yapmazlar.
 

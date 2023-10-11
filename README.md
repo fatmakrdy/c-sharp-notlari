@@ -85,5 +85,71 @@ num = 'A';   // Şimdi num char tipine sahiptir ve ASCII değeri 65'tir.
 }
 ```
 <br>
-- **Methods:** 
+- **Methodlar:** 
 Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu yeniden yazmak yerine, aynı işlemi gerçekleştiren bir method kullanabilirsiniz. Bu, kod tekrarını azaltır ve bakımı kolaylaştırır.
+
+```static void Main(string[] args)
+{
+    Add();
+    Console.ReadLine();
+}
+ static void Add()
+{
+    Console.WriteLine("added");
+}
+```
+-parametreli method:
+
+```static void Main(string[] args)
+{
+    Console.WriteLine(Add1(5, 7));
+    Console.ReadLine();
+}
+static int Add1(int num1,int num2)
+{
+    return num1 + num2;
+}
+```
+-Default parametreli methodlar:
+-*default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.
+```static int Add2(int num1, int num2=15)
+{
+    return num1 + num2;
+}```
+--ref keywordü ile method içindeki değişikliği main methodunda da görebiliriz.
+ref keywordü yerine out keywordü kullanabilirz; out keywordünde number1 verisinde ilk değer vermek zorunda değiliz.
+```static void Main(string[] args)
+{
+    int number1 = 20;
+    int number2 = 100;
+
+    Console.WriteLine(Add(ref number1, number2));
+    Console.WriteLine(number1);
+    Console.ReadLine();
+}
+ 
+static int Add(ref int number1, int number2)
+{
+    number1 = 30;
+    return number1 + number2;
+}```
+- **Method Overloading**
+``` static int Multiply( int num1, int num2)
+ {
+     return num1 * num2;
+ }
+ static int Multiply(int num1, int num2,int num3)
+ {
+     return num1 * num2 * num3;
+ }```
+--params keyword: çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.
+```static void Main(string[] args)
+{
+    Console.WriteLine(Add(1,6, 5, 2));
+    Console.ReadLine();
+}
+ 
+static int Add( params int[] numbers)
+{
+    return numbers.Sum();
+}```

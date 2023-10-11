@@ -76,3 +76,10 @@ Enum veri tipi, programlarınızda sabit değerler kullanmanız gerektiğinde ol
 var num = 5; // num otomatik olarak int olarak tanımlanır
 num = 'A';   // Şimdi num char tipine sahiptir ve ASCII değeri 65'tir.
 ```
+- **Single Line if bloğu:**
+```static void Main(string[] args)
+{
+    var number = 10;
+    Console.WriteLine(number==10 ? "sayı 10 dur" : "sayı 10 değil");
+    Console.ReadLine();
+}```

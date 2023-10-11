@@ -83,3 +83,6 @@ num = 'A';   // Şimdi num char tipine sahiptir ve ASCII değeri 65'tir.
     Console.WriteLine(number==10 ? "sayı 10 dur" : "sayı 10 değil");
     Console.ReadLine();
 }```
+
+ ## Methods 
+Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu yeniden yazmak yerine, aynı işlemi gerçekleştiren bir method kullanabilirsiniz. Bu, kod tekrarını azaltır ve bakımı kolaylaştırır.

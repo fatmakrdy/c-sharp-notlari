@@ -176,3 +176,24 @@ studens[2]= "Özlem";
 - 2.dizi tanımlama yolu: <br>
 
 ```string[] students = { "Fatma", "Mehmet", "Özlem" };```
+- **Multidimensional Array:**
+
+```
+-3 satır 2 sutünlü çok boyutlu dizi
+string[,] regions = new string[3, 2];
+regions[0, 0] = "ankara";
+regions[0, 1] = "konya";
+regions[1, 0] = "istanbul";
+regions[1, 1] = "kocaeli";
+regions[2, 0] = "izmir";
+regions[2, 1] = "manisa";
+```
+ 
+```
+string[,] regions = new string[3, 2]
+{
+    {"ankara","konya"},
+    {"istanbul","kocaeli"},
+    {"izmir","manisa"},
+};
+```

@@ -153,7 +153,7 @@ static int Multiply( int num1, int num2)
 - **Params Keyword:** Çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
 
 ```
- static void Main(string[] args)
+static void Main(string[] args)
 {
     Console.WriteLine(Add(1,6, 5, 2));
     Console.ReadLine();
@@ -196,4 +196,30 @@ string[,] regions = new string[3, 2]
     {"istanbul","kocaeli"},
     {"izmir","manisa"},
 };
+```
+- **for loops:**
+```
+string[] students = { "Fatma", "Mehmet", "Özlem" };
+for (int i = 0; i < students.Length; i++)
+{
+    Console.WriteLine(i + 1 + ":" + students[i]);
+
+}
+```
+-"GetUpperBound" metodu bir dizinin en büyük indeksini döndürür.<br>
+```
+ for (int i = 0; i <= regions.GetUpperBound(0); i++)
+ {
+     for ( int j = 0;  j <= regions.GetUpperBound(1); j++)
+     {
+         Console.WriteLine(regions[i, j]);
+     }
+ }
+```
+-**for each döngüsü:**
+```
+foreach (var i in students)
+{
+    Console.WriteLine(i);
+}
 ```

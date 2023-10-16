@@ -111,11 +111,16 @@ static int Add1(int num1,int num2)
 }
 ```
 -Default parametreli methodlar:
--*default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.
-```static int Add2(int num1, int num2=15)
+<br>
+-default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.<br>
+
+```
+static int Add2(int num1, int num2=15)
 {
     return num1 + num2;
-}```
+}
+```
+
 --ref keywordü ile method içindeki değişikliği main methodunda da görebiliriz.
 ref keywordü yerine out keywordü kullanabilirz; out keywordünde number1 verisinde ilk değer vermek zorunda değiliz.
 ```static void Main(string[] args)

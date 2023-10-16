@@ -121,9 +121,10 @@ static int Add2(int num1, int num2=15)
 }
 ```
 
---ref keywordü ile method içindeki değişikliği main methodunda da görebiliriz.
-ref keywordü yerine out keywordü kullanabilirz; out keywordünde number1 verisinde ilk değer vermek zorunda değiliz.
-```static void Main(string[] args)
+-ref keywordü ile method içindeki değişikliği main methodunda da görebiliriz.<br>
+ref keywordü yerine out keywordü kullanabilirz; out keywordünde number1 verisinde ilk değer vermek zorunda değiliz.<br>
+```
+static void Main(string[] args)
 {
     int number1 = 20;
     int number2 = 100;
@@ -132,23 +133,27 @@ ref keywordü yerine out keywordü kullanabilirz; out keywordünde number1 veris
     Console.WriteLine(number1);
     Console.ReadLine();
 }
- 
 static int Add(ref int number1, int number2)
 {
     number1 = 30;
     return number1 + number2;
-}```
-- **Method Overloading**
-``` static int Multiply( int num1, int num2)
+}
+```
+<br>
+- **Method Overloading:**<br>
+``` 
+static int Multiply( int num1, int num2)
  {
      return num1 * num2;
  }
  static int Multiply(int num1, int num2,int num3)
  {
      return num1 * num2 * num3;
- }```
---params keyword: çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.
-```static void Main(string[] args)
+ }
+ ```<br>
+-params keyword: çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
+```
+static void Main(string[] args)
 {
     Console.WriteLine(Add(1,6, 5, 2));
     Console.ReadLine();
@@ -157,4 +162,5 @@ static int Add(ref int number1, int number2)
 static int Add( params int[] numbers)
 {
     return numbers.Sum();
-}```
+}
+```

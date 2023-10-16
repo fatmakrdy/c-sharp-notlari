@@ -110,7 +110,7 @@ static int Add1(int num1,int num2)
 }
 ```
 - **Default parametreli methodlar:**
--default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.<br>
+default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.<br>
 
 ```
 static int Add2(int num1, int num2=15)
@@ -150,7 +150,7 @@ static int Multiply( int num1, int num2)
  }
  ```
 
-- **params keyword:** çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
+- **Params Keyword:** Çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
 
 ```
  static void Main(string[] args)
@@ -164,3 +164,14 @@ static int Add( params int[] numbers)
     return numbers.Sum();
 }
 ```
+- **Arrays:**
+<br>
+- 1.dizi tanımlama yolu: <br>
+```
+string[] studens = new string[3];
+studens[0]= "Fatma";
+studens[1]= "Mehmet";
+studens[2]= "Özlem";
+```
+- 2.dizi tanımlama yolu: <br>
+```string[] students = { "Fatma", "Mehmet", "Özlem" };```

@@ -99,7 +99,7 @@ Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu
 }
 ```
 - **Parametreli Method:**
-<br>
+
 ```
 static void Main(string[] args)
 {
@@ -141,7 +141,7 @@ static int Add(ref int number1, int number2)
 }
 ```
 - **Method Overloading:**
- <br>
+
 ```
 static int Multiply( int num1, int num2)
  {

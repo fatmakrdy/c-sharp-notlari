@@ -150,10 +150,12 @@ static int Multiply( int num1, int num2)
  {
      return num1 * num2 * num3;
  }
- ```<br>
+ ```
+ <br>
 -params keyword: çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
+
 ```
-static void Main(string[] args)
+ static void Main(string[] args)
 {
     Console.WriteLine(Add(1,6, 5, 2));
     Console.ReadLine();

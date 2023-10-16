@@ -84,8 +84,8 @@ num = 'A';   // Şimdi num char tipine sahiptir ve ASCII değeri 65'tir.
     Console.ReadLine();
 }
 ```
+- **Methodlar:**
 <br>
-- **Methodlar:** 
 Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu yeniden yazmak yerine, aynı işlemi gerçekleştiren bir method kullanabilirsiniz. Bu, kod tekrarını azaltır ve bakımı kolaylaştırır.
 
 ```static void Main(string[] args)
@@ -98,8 +98,8 @@ Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu
     Console.WriteLine("added");
 }
 ```
--parametreli method:
-
+- **parametreli method:**
+<br>
 ```static void Main(string[] args)
 {
     Console.WriteLine(Add1(5, 7));
@@ -110,7 +110,7 @@ static int Add1(int num1,int num2)
     return num1 + num2;
 }
 ```
--Default parametreli methodlar:
+- **Default parametreli methodlar:**
 <br>
 -default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.<br>
 
@@ -139,9 +139,11 @@ static int Add(ref int number1, int number2)
     return number1 + number2;
 }
 ```
-<br>
-- **Method Overloading:**<br>
-``` 
+
+- **Method Overloading:**
+- <br>
+
+```
 static int Multiply( int num1, int num2)
  {
      return num1 * num2;

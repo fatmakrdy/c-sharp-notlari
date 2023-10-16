@@ -98,9 +98,10 @@ Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu
     Console.WriteLine("added");
 }
 ```
-- **parametreli method:**
+- **Parametreli Method:**
 <br>
-```static void Main(string[] args)
+```
+static void Main(string[] args)
 {
     Console.WriteLine(Add1(5, 7));
     Console.ReadLine();
@@ -139,7 +140,6 @@ static int Add(ref int number1, int number2)
     return number1 + number2;
 }
 ```
-
 - **Method Overloading:**
  <br>
 ```

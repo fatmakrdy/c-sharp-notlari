@@ -165,8 +165,8 @@ static int Add( params int[] numbers)
 }
 ```
 - **Arrays:**
-<br>
 - 1.dizi tanımlama yolu: <br>
+
 ```
 string[] studens = new string[3];
 studens[0]= "Fatma";
@@ -174,4 +174,5 @@ studens[1]= "Mehmet";
 studens[2]= "Özlem";
 ```
 - 2.dizi tanımlama yolu: <br>
+
 ```string[] students = { "Fatma", "Mehmet", "Özlem" };```

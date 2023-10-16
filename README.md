@@ -85,7 +85,6 @@ num = 'A';   // Şimdi num char tipine sahiptir ve ASCII değeri 65'tir.
 }
 ```
 - **Methodlar:**
-<br>
 Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu yeniden yazmak yerine, aynı işlemi gerçekleştiren bir method kullanabilirsiniz. Bu, kod tekrarını azaltır ve bakımı kolaylaştırır.
 
 ```static void Main(string[] args)
@@ -99,7 +98,6 @@ Aynı işlemi birden fazla kez yapmanız gerektiğinde, her seferinde aynı kodu
 }
 ```
 - **Parametreli Method:**
-
 ```
 static void Main(string[] args)
 {
@@ -112,7 +110,6 @@ static int Add1(int num1,int num2)
 }
 ```
 - **Default parametreli methodlar:**
-<br>
 -default değer her zaman sonda olmalıdır ilk parametreye default değer veremeyiz.<br>
 
 ```

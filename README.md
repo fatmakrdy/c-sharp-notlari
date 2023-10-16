@@ -141,8 +141,7 @@ static int Add(ref int number1, int number2)
 ```
 
 - **Method Overloading:**
-- <br>
-
+ <br>
 ```
 static int Multiply( int num1, int num2)
  {
@@ -153,8 +152,8 @@ static int Multiply( int num1, int num2)
      return num1 * num2 * num3;
  }
  ```
- <br>
--params keyword: çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
+
+- **params keyword:** çok fazla overloading işlemi yapmak gerektiğinde kullanılabilir.<br>
 
 ```
  static void Main(string[] args)
